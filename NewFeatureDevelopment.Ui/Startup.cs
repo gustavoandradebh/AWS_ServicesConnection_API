@@ -51,7 +51,7 @@ namespace NewFeatureDevelopment.Ui
                 opt.UseSqlServer(
                     Configuration.GetConnectionString("CrossoverDatabase")));
 
-            AWSCredentials cred = new BasicAWSCredentials("AKIAQORDWCRHYI3MI4ER", "yQySAJDfOhDqHKARKmqAeUr3Dy9OJ/Re3BBKJTcU");
+            AWSCredentials cred = new BasicAWSCredentials("", "");
             AWSOptions opt = new AWSOptions { Credentials = cred, Region = RegionEndpoint.USEast2 };
             services.AddDefaultAWSOptions(opt);
 
